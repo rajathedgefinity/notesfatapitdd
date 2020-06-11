@@ -1,5 +1,6 @@
 fastapi
 uvicorn
 pytest
-databases
+databases[postgresql]
 requests
+asyncpg
