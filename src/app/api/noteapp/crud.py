@@ -1,4 +1,4 @@
-from app.api.schema import NoteSchema
+from app.api.noteapp.schema import NoteSchema
 from app.models import notes
 from app.db import database
 

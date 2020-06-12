@@ -1,5 +1,5 @@
-from app.api import crud
-from app.api.schema import NoteSchema, NoteDB
+from app.api.noteapp import crud
+from app.api.noteapp.schema import NoteSchema, NoteDB
 from fastapi import APIRouter, HTTPException
 from typing import List
 
